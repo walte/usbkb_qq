@@ -1,0 +1,495 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AC	AT89X52.H	/^sbit AC   = 0xD6;$/;"	v
+ACC	AT89X52.H	/^sfr ACC     = 0xE0;$/;"	v
+Ack_Setup	PDIUSBD12.h	72;"	d
+B	AT89X52.H	/^sfr B       = 0xF0;$/;"	v
+BitRate	config.h	23;"	d
+CLEAR_FEATURE	USB.H	38;"	d
+CONFIGURATION_DESCRIPTOR	USB.H	27;"	d
+CONFIGURATION_DESCRIPTOR_STRUCT	USB.H	/^CONFIGURATION_DESCRIPTOR_STRUCT, * pCONFIGURATION_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+CONTROL_DATA_BUFF	USB.H	/^}CONTROL_DATA_BUFF;$/;"	t	typeref:struct:_control_data_buff
+CONTROL_POINT_IN	PDIUSBD12.h	32;"	d
+CONTROL_POINT_OUT	PDIUSBD12.h	31;"	d
+CON_INT_ENDP_DESCRIPTOR_STRUCT	UsbKeyBoard.c	/^}CON_INT_ENDP_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	file:
+CP_RL2	AT89X52.H	/^sbit CP_RL2= 0xC8;      \/* 0=Reload, 1=Capture select *\/$/;"	v
+CY	AT89X52.H	/^sbit CY   = 0xD7;$/;"	v
+C_T2	AT89X52.H	/^sbit C_T2 = 0xC9;       \/* 0=Timer, 1=Counter *\/$/;"	v
+Clear_Buffer	PDIUSBD12.h	73;"	d
+Control_Data	UsbKeyBoard.c	/^CONTROL_DATA_BUFF Control_Data;$/;"	v
+DCEN_	AT89X52.H	191;"	d
+DEVICE_DESCRIPTOR	USB.H	26;"	d
+DEVICE_DESCRIPTOR_STRUCT	USB.H	/^DEVICE_DESCRIPTOR_STRUCT, * pDEVICE_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_DEVICE_DCESCRIPTOR_STRUCT
+DEVICE_REMOTE_WAKEUP	USB.H	60;"	d
+DMA_EOT	UsbKeyBoard.c	/^   uint8 DMA_EOT           :1;$/;"	m	struct:__anon3::__anon4	file:
+DPH	AT89X52.H	/^sfr DPH     = 0x83;$/;"	v
+DPL	AT89X52.H	/^sfr DPL     = 0x82;$/;"	v
+DeviceRequest	USB.H	/^ REQUESTCMD DeviceRequest;                    \/\/USB设备请求$/;"	m	struct:_control_data_buff
+DispLineInf	UsbKeyBoard.c	31;"	d	file:
+EA	AT89X52.H	/^sbit EA   = 0xAF;       \/* 0=Disable all interrupts *\/$/;"	v
+ENDPOINT_DESCRIPTOR	USB.H	30;"	d
+ENDPOINT_DESCRIPTOR_STRUCT	USB.H	/^ENDPOINT_DESCRIPTOR_STRUCT, * pENDPOINT_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_ENDPOINT_DESCRIPTOR_STRUCT
+ENDPOINT_HALT	USB.H	59;"	d
+ENDPOINT_NUMBER	UsbKeyBoard.c	53;"	d	file:
+ENDPOINT_TYPE_BULK	USB.H	71;"	d
+ENDPOINT_TYPE_CONTROL	USB.H	69;"	d
+ENDPOINT_TYPE_INTERRUPT	USB.H	72;"	d
+ENDPOINT_TYPE_ISOCHRONOUS	USB.H	70;"	d
+ES	AT89X52.H	/^sbit ES   = 0xAC;       \/* 1=Enable Serial port interrupt *\/$/;"	v
+ET0	AT89X52.H	/^sbit ET0  = 0xA9;       \/* 1=Enable Timer 0 interrupt *\/$/;"	v
+ET1	AT89X52.H	/^sbit ET1  = 0xAB;       \/* 1=Enable Timer 1 interrupt *\/$/;"	v
+ET2	AT89X52.H	/^sbit ET2  = 0xAD;       \/* 1=Enable Timer 2 interrupt *\/$/;"	v
+EX0	AT89X52.H	/^sbit EX0  = 0xA8;       \/* 1=Enable External interrupt 0 *\/$/;"	v
+EX1	AT89X52.H	/^sbit EX1  = 0xAA;       \/* 1=Enable External interrupt 1 *\/$/;"	v
+EX2_VECTOR	AT89X52.H	217;"	d
+EXEN2	AT89X52.H	/^sbit EXEN2= 0xCB;       \/* Timer 2 external enable *\/$/;"	v
+EXF2	AT89X52.H	/^sbit EXF2 = 0xCE;       \/* Timer 2 external flag *\/$/;"	v
+Endpoint_Disenable	PDIUSBD12.h	86;"	d
+Endpoint_Enable	PDIUSBD12.h	85;"	d
+F0	AT89X52.H	/^sbit F0   = 0xD5;$/;"	v
+FL	AT89X52.H	/^sbit FL   = 0xD1;$/;"	v
+Fclk	config.h	22;"	d
+GET_CONFIGURATION	USB.H	43;"	d
+GET_DESCRIPTOR	USB.H	41;"	d
+GET_IDLE	USB.H	51;"	d
+GET_INTERFACE	USB.H	45;"	d
+GET_PROTOCOL	USB.H	52;"	d
+GET_REPORT	USB.H	50;"	d
+GET_STATUS	USB.H	37;"	d
+GF0_	AT89X52.H	63;"	d
+GF1_	AT89X52.H	64;"	d
+HID_DESCRIPTOR	USB.H	31;"	d
+HID_DESCRIPTOR_STRUCT	USB.H	/^HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+HID_SUB_DESCRIPTOR_STRUCT	USB.H	/^HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+HeadTable	UsbKeyBoard.c	/^code uint8 HeadTable[][74]={$/;"	v
+HexTable	UART.c	/^code uint8 HexTable[]={'0','1','2','3','4','5','6','7','8','9','A','B','C','D','E','F'};$/;"	v
+HidSubDescriptors	USB.H	/^ HID_SUB_DESCRIPTOR_STRUCT HidSubDescriptors[NUM_SUB_DESCRIPTORS]; $/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+IDL_	AT89X52.H	58;"	d
+IE	AT89X52.H	/^sfr IE      = 0xA8;$/;"	v
+IE0	AT89X52.H	/^sbit IE0  = 0x89;$/;"	v
+IE0_VECTOR	AT89X52.H	210;"	d
+IE1	AT89X52.H	/^sbit IE1  = 0x8B;$/;"	v
+IE1_VECTOR	AT89X52.H	212;"	d
+INT0	AT89X52.H	/^sbit INT0 = 0xB2;       \/* External interrupt 0 *\/$/;"	v
+INT1	AT89X52.H	/^sbit INT1 = 0xB3;       \/* External interrupt 1 *\/$/;"	v
+INTERFACE_DESCRIPTOR	USB.H	29;"	d
+INTERFACE_DESCRIPTOR_STRUCT	USB.H	/^INTERFACE_DESCRIPTOR_STRUCT, * pINTERFACE_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_INTERFACE_DESCRIPTOR_STRUCT
+IP	AT89X52.H	/^sfr IP      = 0xB8;$/;"	v
+IT0	AT89X52.H	/^sbit IT0  = 0x88;$/;"	v
+IT1	AT89X52.H	/^sbit IT1  = 0x8A;$/;"	v
+InBuffer	UsbKeyBoard.c	/^uint8 idata InBuffer[64];$/;"	v
+InitKeyboard	Key.c	/^void InitKeyboard(void)$/;"	f
+InitTimer0	Key.c	/^void InitTimer0(void)$/;"	f
+InitUART	UART.c	/^void InitUART(void)$/;"	f
+Interrupt	UsbKeyBoard.c	/^  }Interrupt;$/;"	m	union:__anon3	typeref:struct:__anon3::__anon4	file:
+Interrupt_Register	UsbKeyBoard.c	/^}Interrupt_Register;$/;"	v	typeref:union:__anon3
+KEY1	Key.h	35;"	d
+KEY2	Key.h	36;"	d
+KEY3	Key.h	37;"	d
+KEY4	Key.h	38;"	d
+KEY5	Key.h	39;"	d
+KEY6	Key.h	40;"	d
+KEY7	Key.h	41;"	d
+KEY8	Key.h	42;"	d
+KeyBoardReportDescriptor	keyboard.h	/^code char KeyBoardReportDescriptor[63] = {$/;"	v
+KeyCanChange	Key.c	/^volatile uint8 KeyCanChange;$/;"	v
+KeyCurrent	Key.c	/^volatile uint8 idata KeyCurrent,KeyOld,KeyNoChangedTime;$/;"	v
+KeyDown	Key.c	/^volatile uint8 idata KeyDown,KeyUp,KeyLast;$/;"	v
+KeyIO	Key.h	33;"	d
+KeyLast	Key.c	/^volatile uint8 idata KeyDown,KeyUp,KeyLast;$/;"	v
+KeyNoChangedTime	Key.c	/^volatile uint8 idata KeyCurrent,KeyOld,KeyNoChangedTime;$/;"	v
+KeyOld	Key.c	/^volatile uint8 idata KeyCurrent,KeyOld,KeyNoChangedTime;$/;"	v
+KeyPress	Key.c	/^volatile uint8 idata KeyPress;$/;"	v
+KeyUp	Key.c	/^volatile uint8 idata KeyDown,KeyUp,KeyLast;$/;"	v
+LANGUAGE_ID	UsbKeyBoard.c	/^code uint8 LANGUAGE_ID[4]={0x04,0x03,0x09,0x04};                   $/;"	v
+LED1	LED.h	/^sbit LED1  =     LEDs^0;$/;"	v
+LED2	LED.h	/^sbit LED2  =     LEDs^1;$/;"	v
+LED3	LED.h	/^sbit LED3  =     LEDs^2;$/;"	v
+LED4	LED.h	/^sbit LED4  =     LEDs^3;$/;"	v
+LED5	LED.h	/^sbit LED5  =     LEDs^4;$/;"	v
+LED6	LED.h	/^sbit LED6  =     LEDs^5;$/;"	v
+LED7	LED.h	/^sbit LED7  =     LEDs^6;$/;"	v
+LED8	LED.h	/^sbit LED8  =     LEDs^7;$/;"	v
+LEDs	LED.h	21;"	d
+LSB	UsbKeyBoard.c	74;"	d	file:
+Last_Status	UsbKeyBoard.c	/^}Last_Status;$/;"	v	typeref:union:__anon5
+MAIN_POINT_IN	PDIUSBD12.h	36;"	d
+MAIN_POINT_OUT	PDIUSBD12.h	35;"	d
+MAX_CONTROL_DATA_SIZE	USB.H	195;"	d
+MAX_CONTROL_DATA_SIZE	UsbKeyBoard.c	54;"	d	file:
+MSB	UsbKeyBoard.c	77;"	d	file:
+ManufacturerString	UsbKeyBoard.c	/^code uint8 ManufacturerString[80]=$/;"	v
+MaxPower	USB.H	/^ uint8 MaxPower;                              \/\/设备从总线提取的最大电流$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+Mode0_and_connect	PDIUSBD12.h	92;"	d
+Mode0_and_no_connect	PDIUSBD12.h	88;"	d
+Mode1_and_connect	PDIUSBD12.h	93;"	d
+Mode1_and_no_connect	PDIUSBD12.h	89;"	d
+Mode2_and_connect	PDIUSBD12.h	94;"	d
+Mode2_and_no_connect	PDIUSBD12.h	90;"	d
+Mode3_and_connect	PDIUSBD12.h	95;"	d
+Mode3_and_no_connect	PDIUSBD12.h	91;"	d
+Mode_Set_secend_byte	PDIUSBD12.h	96;"	d
+NUM_SUB_DESCRIPTORS	USB.H	153;"	d
+OV	AT89X52.H	/^sbit OV   = 0xD2;$/;"	v
+OffLed1	LED.h	41;"	d
+OffLed2	LED.h	42;"	d
+OffLed3	LED.h	43;"	d
+OffLed4	LED.h	44;"	d
+OffLed5	LED.h	45;"	d
+OffLed6	LED.h	46;"	d
+OffLed7	LED.h	47;"	d
+OffLed8	LED.h	48;"	d
+OnLed1	LED.h	32;"	d
+OnLed2	LED.h	33;"	d
+OnLed3	LED.h	34;"	d
+OnLed4	LED.h	35;"	d
+OnLed5	LED.h	36;"	d
+OnLed6	LED.h	37;"	d
+OnLed7	LED.h	38;"	d
+OnLed8	LED.h	39;"	d
+P	AT89X52.H	/^sbit P    = 0xD0;$/;"	v
+P0	AT89X52.H	/^sfr P0      = 0x80;$/;"	v
+P0_0	AT89X52.H	/^sbit P0_0 = 0x80;$/;"	v
+P0_1	AT89X52.H	/^sbit P0_1 = 0x81;$/;"	v
+P0_2	AT89X52.H	/^sbit P0_2 = 0x82;$/;"	v
+P0_3	AT89X52.H	/^sbit P0_3 = 0x83;$/;"	v
+P0_4	AT89X52.H	/^sbit P0_4 = 0x84;$/;"	v
+P0_5	AT89X52.H	/^sbit P0_5 = 0x85;$/;"	v
+P0_6	AT89X52.H	/^sbit P0_6 = 0x86;$/;"	v
+P0_7	AT89X52.H	/^sbit P0_7 = 0x87;$/;"	v
+P1	AT89X52.H	/^sfr P1      = 0x90;$/;"	v
+P1_0	AT89X52.H	/^sbit P1_0 = 0x90;$/;"	v
+P1_1	AT89X52.H	/^sbit P1_1 = 0x91;$/;"	v
+P1_2	AT89X52.H	/^sbit P1_2 = 0x92;$/;"	v
+P1_3	AT89X52.H	/^sbit P1_3 = 0x93;$/;"	v
+P1_4	AT89X52.H	/^sbit P1_4 = 0x94;$/;"	v
+P1_5	AT89X52.H	/^sbit P1_5 = 0x95;$/;"	v
+P1_6	AT89X52.H	/^sbit P1_6 = 0x96;$/;"	v
+P1_7	AT89X52.H	/^sbit P1_7 = 0x97;$/;"	v
+P2	AT89X52.H	/^sfr P2      = 0xA0;$/;"	v
+P2_0	AT89X52.H	/^sbit P2_0 = 0xA0;$/;"	v
+P2_1	AT89X52.H	/^sbit P2_1 = 0xA1;$/;"	v
+P2_2	AT89X52.H	/^sbit P2_2 = 0xA2;$/;"	v
+P2_3	AT89X52.H	/^sbit P2_3 = 0xA3;$/;"	v
+P2_4	AT89X52.H	/^sbit P2_4 = 0xA4;$/;"	v
+P2_5	AT89X52.H	/^sbit P2_5 = 0xA5;$/;"	v
+P2_6	AT89X52.H	/^sbit P2_6 = 0xA6;$/;"	v
+P2_7	AT89X52.H	/^sbit P2_7 = 0xA7;$/;"	v
+P3	AT89X52.H	/^sfr P3      = 0xB0;$/;"	v
+P3_0	AT89X52.H	/^sbit P3_0 = 0xB0;$/;"	v
+P3_1	AT89X52.H	/^sbit P3_1 = 0xB1;$/;"	v
+P3_2	AT89X52.H	/^sbit P3_2 = 0xB2;$/;"	v
+P3_3	AT89X52.H	/^sbit P3_3 = 0xB3;$/;"	v
+P3_4	AT89X52.H	/^sbit P3_4 = 0xB4;$/;"	v
+P3_5	AT89X52.H	/^sbit P3_5 = 0xB5;$/;"	v
+P3_6	AT89X52.H	/^sbit P3_6 = 0xB6;$/;"	v
+P3_7	AT89X52.H	/^sbit P3_7 = 0xB7;$/;"	v
+PCON	AT89X52.H	/^sfr PCON    = 0x87;$/;"	v
+PD_	AT89X52.H	61;"	d
+PHYSICAL_DESCRIPTOR	USB.H	33;"	d
+POINT_1_IN	PDIUSBD12.h	34;"	d
+POINT_1_OUT	PDIUSBD12.h	33;"	d
+PS	AT89X52.H	/^sbit PS   = 0xBC;$/;"	v
+PSW	AT89X52.H	/^sfr PSW     = 0xD0;$/;"	v
+PT0	AT89X52.H	/^sbit PT0  = 0xB9;$/;"	v
+PT1	AT89X52.H	/^sbit PT1  = 0xBB;$/;"	v
+PT2	AT89X52.H	/^sbit PT2  = 0xBD;$/;"	v
+PX0	AT89X52.H	/^sbit PX0  = 0xB8;$/;"	v
+PX1	AT89X52.H	/^sbit PX1  = 0xBA;$/;"	v
+PrintHex	UART.c	/^void PrintHex(uint8 x)$/;"	f
+PrintLongInt	UART.c	/^void PrintLongInt(uint32 x)$/;"	f
+Printc	UART.c	/^void Printc(uint8 x)$/;"	f
+Prints	UART.c	/^void Prints(uint8 * pd)$/;"	f
+ProducterString	UsbKeyBoard.c	/^code uint8 ProducterString[96]=$/;"	v
+RB8	AT89X52.H	/^sbit RB8  = 0x9A;$/;"	v
+RCAP2H	AT89X52.H	/^sfr RCAP2H  = 0xCB;$/;"	v
+RCAP2L	AT89X52.H	/^sfr RCAP2L  = 0xCA;$/;"	v
+RCLK	AT89X52.H	/^sbit RCLK = 0xCD;       \/* 0=Serial clock uses Timer 1 overflow, 1=Timer 2 *\/$/;"	v
+RD	AT89X52.H	/^sbit RD   = 0xB7;       \/* External data memory read strobe *\/$/;"	v
+REN	AT89X52.H	/^sbit REN  = 0x9C;$/;"	v
+REPORT_DESCRIPTOR	USB.H	32;"	d
+REQUESTCMD	USB.H	/^REQUESTCMD, * pREQUESTCMD;$/;"	t	typeref:struct:_REQUESTCMD
+RI	AT89X52.H	/^sbit RI   = 0x98;$/;"	v
+RS0	AT89X52.H	/^sbit RS0  = 0xD3;$/;"	v
+RS1	AT89X52.H	/^sbit RS1  = 0xD4;$/;"	v
+RXD	AT89X52.H	/^sbit RXD  = 0xB0;       \/* Serial data input *\/$/;"	v
+Read_Buffer	PDIUSBD12.h	64;"	d
+Read_Current_Frame_Number	PDIUSBD12.h	80;"	d
+Read_Interrupt_Register	PDIUSBD12.h	49;"	d
+Read_Last_Status	PDIUSBD12.h	57;"	d
+Read_Last_Status_1_IN	PDIUSBD12.h	61;"	d
+Read_Last_Status_1_OUT	PDIUSBD12.h	60;"	d
+Read_Last_Status_2_IN	PDIUSBD12.h	63;"	d
+Read_Last_Status_2_OUT	PDIUSBD12.h	62;"	d
+Read_Last_Status_C_IN	PDIUSBD12.h	59;"	d
+Read_Last_Status_C_OUT	PDIUSBD12.h	58;"	d
+Register	UsbKeyBoard.c	/^ uint8 Register;$/;"	m	union:__anon5	file:
+Register	UsbKeyBoard.c	/^ uint8 Register[2];$/;"	m	union:__anon3	file:
+Register	UsbKeyBoard.c	/^uint16 Register;$/;"	m	union:__anon1	file:
+SBUF	AT89X52.H	/^sfr SBUF    = 0x99;$/;"	v
+SCON	AT89X52.H	/^sfr SCON    = 0x98;$/;"	v
+SET_ADDRESS	USB.H	40;"	d
+SET_CONFIGURATION	USB.H	44;"	d
+SET_DESCRIPTOR	USB.H	42;"	d
+SET_FEATURE	USB.H	39;"	d
+SET_IDLE	USB.H	54;"	d
+SET_INTERFACE	USB.H	46;"	d
+SET_PROTOCOL	USB.H	55;"	d
+SET_REPORT	USB.H	53;"	d
+SIO_VECTOR	AT89X52.H	214;"	d
+SM0	AT89X52.H	/^sbit SM0  = 0x9F;$/;"	v
+SM1	AT89X52.H	/^sbit SM1  = 0x9E;$/;"	v
+SM2	AT89X52.H	/^sbit SM2  = 0x9D;$/;"	v
+SMOD_	AT89X52.H	65;"	d
+SP	AT89X52.H	/^sfr SP      = 0x81;$/;"	v
+STOP_	AT89X52.H	60;"	d
+STRING_DESCRIPTOR	USB.H	28;"	d
+STRING_DESCRIPTOR_STRUCT	USB.H	/^STRING_DESCRIPTOR_STRUCT, * pSTRING_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_STRING_DESCRIPTOR_STRUCT
+SWAP16	UsbKeyBoard.c	71;"	d	file:
+SYNCH_FRAME	USB.H	47;"	d
+Select_EndPoint	PDIUSBD12.h	50;"	d
+Select_Endpoint_1_IN	PDIUSBD12.h	54;"	d
+Select_Endpoint_1_OUT	PDIUSBD12.h	53;"	d
+Select_Endpoint_2_IN	PDIUSBD12.h	56;"	d
+Select_Endpoint_2_OUT	PDIUSBD12.h	55;"	d
+Select_Endpoint_C_IN	PDIUSBD12.h	52;"	d
+Select_Endpoint_C_OUT	PDIUSBD12.h	51;"	d
+Send_Resume	PDIUSBD12.h	79;"	d
+Sending	UART.c	/^uint8 Sending;$/;"	v
+Set_Address	PDIUSBD12.h	40;"	d
+Set_DMA	PDIUSBD12.h	43;"	d
+Set_Endpoint_Enable	PDIUSBD12.h	41;"	d
+Set_Endpoint_Status_1_IN	PDIUSBD12.h	69;"	d
+Set_Endpoint_Status_1_OUT	PDIUSBD12.h	68;"	d
+Set_Endpoint_Status_2_IN	PDIUSBD12.h	71;"	d
+Set_Endpoint_Status_2_OUT	PDIUSBD12.h	70;"	d
+Set_Endpoint_Status_C_IN	PDIUSBD12.h	67;"	d
+Set_Endpoint_Status_C_OUT	PDIUSBD12.h	66;"	d
+Set_Mode	PDIUSBD12.h	42;"	d
+SomeDesriptor	USB.H	/^ uint8 SomeDesriptor[36];                      \/\/UNICODE编码的字符串$/;"	m	struct:_STRING_DESCRIPTOR_STRUCT
+Status	UsbKeyBoard.c	/^ }Status;$/;"	m	union:__anon5	typeref:struct:__anon5::__anon6	file:
+T0	AT89X52.H	/^sbit T0   = 0xB4;       \/* Timer 0 external input *\/$/;"	v
+T0_CT_	AT89X52.H	84;"	d
+T0_GATE_	AT89X52.H	85;"	d
+T0_M0_	AT89X52.H	82;"	d
+T0_M1_	AT89X52.H	83;"	d
+T0_MASK_	AT89X52.H	92;"	d
+T1	AT89X52.H	/^sbit T1   = 0xB5;       \/* Timer 1 external input *\/$/;"	v
+T1_CT_	AT89X52.H	88;"	d
+T1_GATE_	AT89X52.H	89;"	d
+T1_M0_	AT89X52.H	86;"	d
+T1_M1_	AT89X52.H	87;"	d
+T1_MASK_	AT89X52.H	91;"	d
+T2	AT89X52.H	/^sbit T2   = 0x90;       \/* External input to Timer\/Counter 2, clock out *\/$/;"	v
+T2CON	AT89X52.H	/^sfr T2CON   = 0xC8;$/;"	v
+T2EX	AT89X52.H	/^sbit T2EX = 0x91;       \/* Timer\/Counter 2 capture\/reload trigger & dir ctl *\/$/;"	v
+T2MOD	AT89X52.H	/^sfr T2MOD   = 0xC9;$/;"	v
+T2OE_	AT89X52.H	192;"	d
+TB8	AT89X52.H	/^sbit TB8  = 0x9B;$/;"	v
+TCLK	AT89X52.H	/^sbit TCLK = 0xCC;       \/* 0=Serial clock uses Timer 1 overflow, 1=Timer 2 *\/$/;"	v
+TCON	AT89X52.H	/^sfr TCON    = 0x88;$/;"	v
+TF0	AT89X52.H	/^sbit TF0  = 0x8D;$/;"	v
+TF0_VECTOR	AT89X52.H	211;"	d
+TF1	AT89X52.H	/^sbit TF1  = 0x8F;$/;"	v
+TF1_VECTOR	AT89X52.H	213;"	d
+TF2	AT89X52.H	/^sbit TF2  = 0xCF;       \/* Timer 2 overflow flag *\/$/;"	v
+TF2_VECTOR	AT89X52.H	216;"	d
+TH0	AT89X52.H	/^sfr TH0     = 0x8C;$/;"	v
+TH1	AT89X52.H	/^sfr TH1     = 0x8D;$/;"	v
+TH2	AT89X52.H	/^sfr TH2     = 0xCD;$/;"	v
+TI	AT89X52.H	/^sbit TI   = 0x99;$/;"	v
+TL0	AT89X52.H	/^sfr TL0     = 0x8A;$/;"	v
+TL1	AT89X52.H	/^sfr TL1     = 0x8B;$/;"	v
+TL2	AT89X52.H	/^sfr TL2     = 0xCC;$/;"	v
+TMOD	AT89X52.H	/^sfr TMOD    = 0x89;$/;"	v
+TR0	AT89X52.H	/^sbit TR0  = 0x8C;$/;"	v
+TR1	AT89X52.H	/^sbit TR1  = 0x8E;$/;"	v
+TR2	AT89X52.H	/^sbit TR2  = 0xCA;       \/* 0=Stop timer, 1=Start timer *\/$/;"	v
+TXD	AT89X52.H	/^sbit TXD  = 0xB1;       \/* Serial data output *\/$/;"	v
+USB_A0	UsbKeyBoard.c	47;"	d	file:
+USB_COMMAND_ADD	UsbKeyBoard.c	42;"	d	file:
+USB_DATA	UsbKeyBoard.c	46;"	d	file:
+USB_DATA_ADD	UsbKeyBoard.c	43;"	d	file:
+USB_INT	UsbKeyBoard.c	50;"	d	file:
+USB_RD	UsbKeyBoard.c	49;"	d	file:
+USB_WR	UsbKeyBoard.c	48;"	d	file:
+UartPutChar	UART.c	/^void UartPutChar(uint8 d)$/;"	f
+Validate_Buffer	PDIUSBD12.h	74;"	d
+WR	AT89X52.H	/^sbit WR   = 0xB6;       \/* External data memory write strobe *\/$/;"	v
+Write_Buffer	PDIUSBD12.h	65;"	d
+_CONFIGURATION_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _CONFIGURATION_DESCRIPTOR_STRUCT$/;"	s
+_CON_INT_ENDP_DESCRIPTOR_STRUCT	UsbKeyBoard.c	/^typedef struct _CON_INT_ENDP_DESCRIPTOR_STRUCT$/;"	s	file:
+_DEVICE_DCESCRIPTOR_STRUCT	USB.H	/^typedef struct _DEVICE_DCESCRIPTOR_STRUCT$/;"	s
+_ENDPOINT_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _ENDPOINT_DESCRIPTOR_STRUCT$/;"	s
+_HID_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _HID_DESCRIPTOR_STRUCT$/;"	s
+_HID_SUB_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _HID_SUB_DESCRIPTOR_STRUCT$/;"	s
+_INTERFACE_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _INTERFACE_DESCRIPTOR_STRUCT$/;"	s
+_REQUESTCMD	USB.H	/^typedef struct _REQUESTCMD$/;"	s
+_STRING_DESCRIPTOR_STRUCT	USB.H	/^typedef struct _STRING_DESCRIPTOR_STRUCT$/;"	s
+__AT89X52_H__	AT89X52.H	10;"	d
+__CONFIG_H__	config.h	20;"	d
+__KEY_H__	Key.h	20;"	d
+__LED_H__	LED.h	19;"	d
+__My_TYPE_H__	My_type.h	14;"	d
+__PDIUSBD12_H__	PDIUSBD12.h	22;"	d
+__UART_C__	UART.h	20;"	d
+__USB_H__	USB.H	19;"	d
+_control_data_buff	USB.H	/^typedef struct _control_data_buff$/;"	s
+ack_setup	UsbKeyBoard.c	/^void ack_setup(uint8 endp)$/;"	f
+bAlternateSetting	USB.H	/^ uint8 bAlternateSetting;                     \/\/备用的接口描述符编号$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bConfigurationValue	USB.H	/^ uint8 bConfigurationValue;                   \/\/Set_Configuration命令所需要的参数值$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+bCountryCode	USB.H	/^ uint8 bCountryCode;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;	                      \/\/设备描述符类型编号$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;                        \/\/字符串描述符类型编号$/;"	m	struct:_STRING_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;                       \/\/端点描述符类型编号$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;                       \/\/接口描述符的类型编号$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;                       \/\/配置描述符类型编号$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;    \/\/下级描述符的类型编号$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+bDescriptorType	USB.H	/^ uint8 bDescriptorType;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bDeviceClass	USB.H	/^ uint8 bDeviceClass;                          \/\/USB分配的设备类代码$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bDeviceProtocol	USB.H	/^ uint8 bDeviceProtocol;                       \/\/USB分配的设备协议代码$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bDeviceSubClass	USB.H	/^ uint8 bDeviceSubClass;                       \/\/USB分配的子类代码$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bEndpointAddress	USB.H	/^ uint8 bEndpointAddress;                      \/\/端点地址及输入输出属性$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+bInterfaceClass	USB.H	/^ uint8 bInterfaceClass;                       \/\/接口类型$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bInterfaceNumber	USB.H	/^ uint8 bInterfaceNumber;                      \/\/该接口的编号$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bInterfaceProtocol	USB.H	/^ uint8 bInterfaceProtocol;                    \/\/接口遵循的协议$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bInterfaceSubClass	USB.H	/^ uint8 bInterfaceSubClass;                    \/\/接口子类型$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bInterval	USB.H	/^ uint8 bInterval;                             \/\/主机查询端点的时间间隔$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+bLength	USB.H	/^ uint8 bLength;                                \/\/端点描述符字节数大小$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+bLength	USB.H	/^ uint8 bLength;                                \/\/字符串描述符的字节数大小$/;"	m	struct:_STRING_DESCRIPTOR_STRUCT
+bLength	USB.H	/^ uint8 bLength;                               \/\/接口描述符的字节数大小$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bLength	USB.H	/^ uint8 bLength;                               \/\/配置描述符的字节数大小$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+bLength	USB.H	/^ uint8 bLength;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bMaxPacketSize0	USB.H	/^ uint8 bMaxPacketSize0;                       \/\/端点0的最大包大小$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bNumConfigurations	USB.H	/^ uint8 bNumConfigurations;                    \/\/可能的配置数量$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bNumDescriptors	USB.H	/^ uint8 bNumDescriptors;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bNumEndpoints	USB.H	/^ uint8 bNumEndpoints;                         \/\/该接口使用的端点数，不包括端点0$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+bNumInterfaces	USB.H	/^ uint8 bNumInterfaces;                        \/\/此配置所支持的接口数量$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+bRequest	USB.H	/^ uint8 bRequest;                              \/\/请求命令代码$/;"	m	struct:_REQUESTCMD
+bcdDevice	USB.H	/^ uint16 bcdDevice;                             \/\/设备出厂编号$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bcdHID	USB.H	/^ uint16 bcdHID;$/;"	m	struct:_HID_DESCRIPTOR_STRUCT
+bcdUSB	USB.H	/^ uint16 bcdUSB;                                \/\/USB版本号$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+blength	USB.H	/^ uint8 blength;                               \/\/设备描述符的字节数大小$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+bmAttributes	USB.H	/^ uint8 bmAttributes;                          \/\/端点的传输类型属性$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+bmAttributes	USB.H	/^ uint8 bmAttributes;                          \/\/供电模式的选择$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+bmRequestType	USB.H	/^ uint8 bmRequestType;                         \/\/请求命令类型$/;"	m	struct:_REQUESTCMD
+buffer	UsbKeyBoard.c	/^uint8 idata buffer[64];$/;"	v
+bus_reset	UsbKeyBoard.c	/^   uint8 bus_reset         :1;$/;"	m	struct:__anon3::__anon4	file:
+bus_reset	UsbKeyBoard.c	/^ uint8 bus_reset        :1;$/;"	m	struct:__anon1::__anon2	file:
+clear_buffer	UsbKeyBoard.c	/^void clear_buffer(void)$/;"	f
+clear_feature	UsbKeyBoard.c	/^void clear_feature(uint8 receiver)    $/;"	f
+con_int_endp_descriptor	UsbKeyBoard.c	/^code CON_INT_ENDP_DESCRIPTOR_STRUCT con_int_endp_descriptor=$/;"	v
+configuration_descriptor	UsbKeyBoard.c	/^ CONFIGURATION_DESCRIPTOR_STRUCT configuration_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	file:
+connect_usb	UsbKeyBoard.c	/^void connect_usb(void)$/;"	f
+control_in_port	UsbKeyBoard.c	/^   uint8 control_in_port   :1;$/;"	m	struct:__anon3::__anon4	file:
+control_out_port	UsbKeyBoard.c	/^   uint8 control_out_port  :1;$/;"	m	struct:__anon3::__anon4	file:
+dataBuffer	USB.H	/^ uint8 dataBuffer[MAX_CONTROL_DATA_SIZE];$/;"	m	struct:_control_data_buff
+data_1	UsbKeyBoard.c	/^  uint8 data_1              :1;$/;"	m	struct:__anon5::__anon6	file:
+delay	UsbKeyBoard.c	/^void delay(uint16 x)                $/;"	f
+device_descriptor	UsbKeyBoard.c	/^code DEVICE_DESCRIPTOR_STRUCT device_descriptor=     \/\/设备描述符$/;"	v
+device_serial_number	UsbKeyBoard.c	/^code uint8 device_serial_number[]=$/;"	v
+disconnect_usb	UsbKeyBoard.c	/^void disconnect_usb(void)$/;"	f
+endp0_in	UsbKeyBoard.c	/^void endp0_in(void)$/;"	f
+endp0_out	UsbKeyBoard.c	/^void endp0_out(void)$/;"	f
+endp2_in	UsbKeyBoard.c	/^void endp2_in(void)                                      $/;"	f
+endp2_out	UsbKeyBoard.c	/^void endp2_out(void)$/;"	f
+endpoint_descriptor	UsbKeyBoard.c	/^ ENDPOINT_DESCRIPTOR_STRUCT  endpoint_descriptor[ENDPOINT_NUMBER];$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	file:
+error	UsbKeyBoard.c	/^void error(uint8 number)$/;"	f
+error_code	UsbKeyBoard.c	/^  uint8 error_code          :4;$/;"	m	struct:__anon5::__anon6	file:
+flags	UsbKeyBoard.c	/^}flags;$/;"	m	union:__anon1	typeref:struct:__anon1::__anon2	file:
+get_configuration	UsbKeyBoard.c	/^void get_configuration(void)$/;"	f
+get_descriptor	UsbKeyBoard.c	/^void get_descriptor(void)$/;"	f
+get_descriptor_interface	UsbKeyBoard.c	/^void get_descriptor_interface(void)$/;"	f
+get_idle	UsbKeyBoard.c	/^void get_idle(void)$/;"	f
+get_interface	UsbKeyBoard.c	/^void get_interface(void)$/;"	f
+get_protocol	UsbKeyBoard.c	/^void get_protocol(void)$/;"	f
+get_report	UsbKeyBoard.c	/^void get_report(void)$/;"	f
+get_status	UsbKeyBoard.c	/^void get_status(uint8 receiver)$/;"	f
+hid_descriptor	UsbKeyBoard.c	/^ HID_DESCRIPTOR_STRUCT hid_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	file:
+iConfiguration	USB.H	/^ uint8 iConfiguration;                        \/\/描述该配置的字符串的索引值$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+iInterface	USB.H	/^ uint8 iInterface;                            \/\/描述该接口的字符串索引值$/;"	m	struct:_INTERFACE_DESCRIPTOR_STRUCT
+iManufacturer	USB.H	/^ uint8 iManufacturer;                         \/\/设备厂商字符串的索引$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+iProduct	USB.H	/^ uint8 iProduct;                              \/\/描述产品字符串的索引$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+iSerialNumber	USB.H	/^ uint8 iSerialNumber;                         \/\/描述设备序列号字符串的索引$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+idProduct	USB.H	/^ uint16 idProduct;                             \/\/产品编号$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+idVendor	USB.H	/^ uint16 idVendor;                              \/\/厂商编号$/;"	m	struct:_DEVICE_DCESCRIPTOR_STRUCT
+idle	UsbKeyBoard.c	/^uint8 idle;     \/\/空闲状态$/;"	v
+init_usb	UsbKeyBoard.c	/^void init_usb(void)               $/;"	f
+int16	My_type.h	20;"	d
+int32	My_type.h	21;"	d
+int64	My_type.h	23;"	d
+int8	My_type.h	19;"	d
+int_isr	UsbKeyBoard.c	/^ uint8 int_isr          :1;$/;"	m	struct:__anon1::__anon2	file:
+interface_descriptor	UsbKeyBoard.c	/^ INTERFACE_DESCRIPTOR_STRUCT  interface_descriptor;$/;"	m	struct:_CON_INT_ENDP_DESCRIPTOR_STRUCT	file:
+main	UsbKeyBoard.c	/^void main(void)$/;"	f
+main_in_port	UsbKeyBoard.c	/^   uint8 main_in_port      :1;$/;"	m	struct:__anon3::__anon4	file:
+main_out_port	UsbKeyBoard.c	/^   uint8 main_out_port     :1;$/;"	m	struct:__anon3::__anon4	file:
+not_end	UsbKeyBoard.c	/^ uint8 not_end          :1;$/;"	m	struct:__anon1::__anon2	file:
+not_use	UsbKeyBoard.c	/^   uint8 not_use           :7;$/;"	m	struct:__anon3::__anon4	file:
+pCONFIGURATION_DESCRIPTOR_STRUCT	USB.H	/^CONFIGURATION_DESCRIPTOR_STRUCT, * pCONFIGURATION_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+pDEVICE_DESCRIPTOR_STRUCT	USB.H	/^DEVICE_DESCRIPTOR_STRUCT, * pDEVICE_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_DEVICE_DCESCRIPTOR_STRUCT
+pData	USB.H	/^ uint8 * pData;$/;"	m	struct:_control_data_buff
+pData	UsbKeyBoard.c	/^uint8 *pData;$/;"	v
+pENDPOINT_DESCRIPTOR_STRUCT	USB.H	/^ENDPOINT_DESCRIPTOR_STRUCT, * pENDPOINT_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_ENDPOINT_DESCRIPTOR_STRUCT
+pHID_DESCRIPTOR_STRUCT	USB.H	/^HID_DESCRIPTOR_STRUCT,*pHID_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_DESCRIPTOR_STRUCT
+pHID_SUB_DESCRIPTOR_STRUCT	USB.H	/^HID_SUB_DESCRIPTOR_STRUCT,*pHID_SUB_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_HID_SUB_DESCRIPTOR_STRUCT
+pINTERFACE_DESCRIPTOR_STRUCT	USB.H	/^INTERFACE_DESCRIPTOR_STRUCT, * pINTERFACE_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_INTERFACE_DESCRIPTOR_STRUCT
+pREQUESTCMD	USB.H	/^REQUESTCMD, * pREQUESTCMD;$/;"	t	typeref:struct:_REQUESTCMD
+pSTRING_DESCRIPTOR_STRUCT	USB.H	/^STRING_DESCRIPTOR_STRUCT, * pSTRING_DESCRIPTOR_STRUCT;$/;"	t	typeref:struct:_STRING_DESCRIPTOR_STRUCT
+port_in_1	UsbKeyBoard.c	/^   uint8 port_in_1         :1;$/;"	m	struct:__anon3::__anon4	file:
+port_out_1	UsbKeyBoard.c	/^   uint8 port_out_1        :1;$/;"	m	struct:__anon3::__anon4	file:
+prestatus_not_read	UsbKeyBoard.c	/^  uint8 prestatus_not_read  :1;$/;"	m	struct:__anon5::__anon6	file:
+protocol	UsbKeyBoard.c	/^uint8 protocol; \/\/当前协议$/;"	v
+read_a_usb_data	UsbKeyBoard.c	/^uint8 read_a_usb_data(void)$/;"	f
+read_endpoint_buff	UsbKeyBoard.c	/^uint8 read_endpoint_buff(uint8 endp,uint8 len,uint8 * buff)$/;"	f
+read_endpoint_status	UsbKeyBoard.c	/^uint8 read_endpoint_status(uint8 endp)$/;"	f
+read_interrupt_register	UsbKeyBoard.c	/^void read_interrupt_register(void)$/;"	f
+read_last_status	UsbKeyBoard.c	/^uint8  read_last_status(uint8 endp)$/;"	f
+remote_wakeup	UsbKeyBoard.c	/^ uint8 remote_wakeup    :1;$/;"	m	struct:__anon1::__anon2	file:
+select_endpoint	UsbKeyBoard.c	/^uint8 select_endpoint(uint8 endp)$/;"	f
+set_addr	UsbKeyBoard.c	/^ uint8 set_addr         :1;$/;"	m	struct:__anon1::__anon2	file:
+set_configuration	UsbKeyBoard.c	/^void set_configuration(void)$/;"	f
+set_descriptor	UsbKeyBoard.c	/^void set_descriptor(void)$/;"	f
+set_endpoint_enable	UsbKeyBoard.c	/^void set_endpoint_enable(void)$/;"	f
+set_endpoint_status	UsbKeyBoard.c	/^void set_endpoint_status(uint8 endp,uint8 status)  $/;"	f
+set_feature	UsbKeyBoard.c	/^void set_feature(uint8 receiver)$/;"	f
+set_idle	UsbKeyBoard.c	/^void set_idle(void)$/;"	f
+set_interface	UsbKeyBoard.c	/^void set_interface(void)$/;"	f
+set_protocol	UsbKeyBoard.c	/^void set_protocol(void)$/;"	f
+set_report	UsbKeyBoard.c	/^void set_report(void)$/;"	f
+set_usb_addr	UsbKeyBoard.c	/^void set_usb_addr(uint8 addr)$/;"	f
+set_usb_address	UsbKeyBoard.c	/^void set_usb_address(void)$/;"	f
+setup_packet	UsbKeyBoard.c	/^  uint8 setup_packet        :1;$/;"	m	struct:__anon5::__anon6	file:
+setup_packet_in	UsbKeyBoard.c	/^ uint8 setup_packet_in  :1;$/;"	m	struct:__anon1::__anon2	file:
+setup_packet_out	UsbKeyBoard.c	/^ uint8 setup_packet_out :1;$/;"	m	struct:__anon1::__anon2	file:
+successful	UsbKeyBoard.c	/^  uint8 successful          :1;$/;"	m	struct:__anon5::__anon6	file:
+suspend	UsbKeyBoard.c	/^ uint8 suspend          :1;$/;"	m	struct:__anon1::__anon2	file:
+suspend_change	UsbKeyBoard.c	/^   uint8 suspend_change    :1;$/;"	m	struct:__anon3::__anon4	file:
+uint16	My_type.h	17;"	d
+uint32	My_type.h	18;"	d
+uint64	My_type.h	22;"	d
+uint8	My_type.h	16;"	d
+usb_bus_reset	UsbKeyBoard.c	/^void usb_bus_reset(void)$/;"	f
+usb_bus_suspend	UsbKeyBoard.c	/^void usb_bus_suspend(void)$/;"	f
+usb_busy	UsbKeyBoard.c	/^ uint8 usb_busy         :1;$/;"	m	struct:__anon1::__anon2	file:
+usb_endp0_in	UsbKeyBoard.c	/^ uint8 usb_endp0_in     :1;$/;"	m	struct:__anon1::__anon2	file:
+usb_endp2_in	UsbKeyBoard.c	/^ uint8 usb_endp2_in     :1;$/;"	m	struct:__anon1::__anon2	file:
+usb_endp2_out	UsbKeyBoard.c	/^ uint8 usb_endp2_out    :1;$/;"	m	struct:__anon1::__anon2	file:
+usb_flags	UsbKeyBoard.c	/^}usb_flags;$/;"	v	typeref:union:__anon1
+usb_idle	UsbKeyBoard.c	/^ uint8 usb_idle         :1;$/;"	m	struct:__anon1::__anon2	file:
+validate_buffer	UsbKeyBoard.c	/^void validate_buffer(void)$/;"	f
+wCount	USB.H	/^ uint16 wCount;$/;"	m	struct:_control_data_buff
+wDescriptorLength	USB.H	/^ uint16 wDescriptorLength;  \/\/下级描述符的长度$/;"	m	struct:_HID_SUB_DESCRIPTOR_STRUCT
+wIndex	USB.H	/^ uint16 wIndex;                                \/\/索引信息$/;"	m	struct:_REQUESTCMD
+wLength	USB.H	/^ uint16 wLength;                               \/\/传输数据大小$/;"	m	struct:_REQUESTCMD
+wLength	USB.H	/^ uint16 wLength;$/;"	m	struct:_control_data_buff
+wMaxPacketSize	USB.H	/^ uint16 wMaxPacketSize;                        \/\/端点收、发的最大包大小$/;"	m	struct:_ENDPOINT_DESCRIPTOR_STRUCT
+wTotalLength	USB.H	/^ uint16 wTotalLength;                          \/\/此配置返回的所有数据大小$/;"	m	struct:_CONFIGURATION_DESCRIPTOR_STRUCT
+wValue	USB.H	/^ uint16 wValue;                                \/\/命令信息$/;"	m	struct:_REQUESTCMD
+write_a_usb_data	UsbKeyBoard.c	/^void write_a_usb_data(uint8 usb_data)       $/;"	f
+write_endpoint_buff	UsbKeyBoard.c	/^uint8 write_endpoint_buff(uint8 endp,uint8 len,uint8 * buff)$/;"	f
+write_usb_command	UsbKeyBoard.c	/^void write_usb_command(uint8 usb_command)$/;"	f
