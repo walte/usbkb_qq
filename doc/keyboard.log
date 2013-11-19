@@ -1,0 +1,42 @@
+Bus Hound 5.00 capture. Complements of www.perisoft.net
+
+keyboard log
+
+  Device - Device ID (followed by the endpoint for USB devices)
+            (13) USB 人体学输入设备
+            (14) HID Keyboard Device
+  Phase  - Phase Type
+            CTL   USB control transfer       
+            DI    Data in                    
+            DO    Data out                   
+            NSTS  NT status                  
+            RSET  bus reset                  
+  Data   - Hex dump of the data transferred
+  Descr  - Description of the phase
+  Cmd... - Position in the captured data
+
+
+Device  Phase  Data                                                                                                    Description       Cmd.Phase.Ofs(rep)
+------  -----  ------------------------------------------------------------------------------------------------------  ----------------  ------------------
+  13.0  CTL    80 06 00 01  00 00 12 00                                                                                GET DESCRIPTOR           1.1.0        
+  13.0  DI     12 01 10 01  00 00 00 10  88 88 01 00  01 00 01 02  03 01                                               ................         1.2.0        
+  13.0  CTL    80 06 00 02  00 00 09 00                                                                                GET DESCRIPTOR           2.1.0        
+  13.0  DI     09 02 29 00  01 01 00 a0  c8                                                                            ..)......                2.2.0        
+  13.0  CTL    80 06 00 02  00 00 29 00                                                                                GET DESCRIPTOR           3.1.0        
+  13.0  DI     09 02 29 00  01 01 00 a0  c8 09 04 00  00 02 03 01  01 00 09 21  10 01 21 01  22 3f 00 07  05 82 03 40  ..).............         3.2.0        
+  13.0  CTL    00 09 01 00  00 00 00 00                                                                                SET CONFIG               4.1.0        
+  13.0  CTL    21 0a 00 00  00 00 00 00                                                                                SET IDLE                 5.1.0        
+  13.0  CTL    81 06 00 22  00 00 7f 00                                                                                GET DESCRIPTOR           6.1.0        
+  13.0  DI     05 01 09 06  a1 01 05 07  19 e0 29 e7  15 00 25 01  75 01 95 08  81 02 95 01  75 08 81 03  95 05 75 01  ..........)...%.         6.2.0        
+  13.2  DO     01                                                                                                      .                        7.1.0        
+  14    DO     00 01                                                                                                   ..                       8.1.0        
+  13.2  DI     01 00 00 00  00 00 00 00                                                                                ........                 9.1.0        
+  14    DI     00 01 00 00  00 00 00 00  00                                                                            .........               10.1.0        
+  13.2  DI     00 00 00 00  00 00 00 00                                                                                ........                11.1.0        
+  14    DI     00 00 00 00  00 00 00 00  00                                                                            .........               12.1.0        
+  13.2  DI     02 00 00 00  00 00 00 00                                                                                ........                13.1.0        
+  14    DI     00 02 00 00  00 00 00 00  00                                                                            .........               14.1.0        
+  13.2  DI     00 00 00 00  00 00 00 00                                                                                ........                15.1.0        
+  14    DI     00 00 00 00  00 00 00 00  00                                                                            .........               16.1.0        
+  13    RSET                                                                                                                                   17.1.0        
+  13    NSTS   9c 00 00 c0                                                                                             device data err         17.2.0        
